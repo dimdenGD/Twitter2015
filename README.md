@@ -7,4 +7,10 @@ Finally, a way to return old and great Twitter's look.
 2) Click [here](https://github.com/dimdenGD/Twitter2015/raw/main/goodtwitter2.user.js) and install userscript  
 3) Install [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)  
 4) Click [here](https://github.com/dimdenGD/Twitter2015/raw/main/twitter2015.user.css) and install userstyle  
-5) Finally, good Twitter is back!  
+5) Go to Twitter settings, GoodTwitter2 tab and set:
+  * Legacy Profile Layout - ✅
+  * Square Avatars - ✅
+  * Left Sidebar Media - ✅
+  * Use Custom Font - "sans-serif" (without quotes)
+  * Rosetta Icons - ✅
+6) Finally, good Twitter is back!  

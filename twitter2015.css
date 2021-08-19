@@ -1,0 +1,131 @@
+/* ==UserStyle==
+@name         Twitter 2015
+@author       dimden.dev
+@description  Returns great Twitter's style from 2015. Requires GoodTwitter2!
+@namespace    github.com/dimdenGD/Twitter2015
+@version      1.0.0
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("twitter.com") {
+    .r-1niwhzg::before {
+         color: #ccd6dd;
+    }
+    div[data-testid="unlike"] .r-1niwhzg::before {
+         color: rgb(224, 36, 94);
+    }
+    
+    div[data-testid="unretweet"] .r-1niwhzg::before {
+         color: rgb(23, 191, 99);
+    }
+    
+    .r-xoduu5 {
+        color: #8899a6;
+    }
+    
+    div[aria-label^="Follow"], .r-1niwhzg.r-1ets6dv.r-sdzlij {
+        background-image: linear-gradient(#fff,#f5f8fa);
+        background-color: rgb(15, 20, 25) !important;
+        border: 1px solid #e1e8ed;
+    }
+    
+    div[aria-label^="Follow"] > div > span, .r-1niwhzg.r-1ets6dv.r-sdzlij > div > span {
+        color: #292f33;    
+    }
+    .r-18jsvk2 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .r-14j79pv {
+        color: #8899a6;
+        font-size: 13px;
+    }
+    .r-1awozwy.r-18jsvk2.r-6koalj {
+        font-weight: bold;
+        color: #292f33;    
+    }
+    .gt2-legacy-profile-name {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1;
+        text-rendering: optimizeLegibility;
+        font-family: sans-serif !important;
+    }
+    .gt2-legacy-profile-nav-center {
+        color: #66757f;
+        font-size: 11px;
+        letter-spacing: .02em;
+        text-transform: uppercase;
+    }
+    .gt2-opt-legacy-profile.gt2-page-profile .gt2-legacy-profile-nav .gt2-legacy-profile-nav-left>img {
+        border-radius: 10px !important;
+    }
+    .gt2-toggle-navbar-dropdown>img {
+        border-radius: 3px !important;
+    }
+    button {
+        border-radius: 3px !important;
+    }
+        .r-18jsvk2.r-6koalj.r-eqz5dr, .r-14j79pv.r-6koalj.r-eqz5dr.r-37j5jr {
+        font-size: 18px;
+    }
+    .r-18jsvk2.r-6koalj.r-eqz5dr {
+        color: black;    
+    }
+    .r-1awozwy.r-1loqt21.r-6koalj:after {
+        background-color: transparent !important;     
+    }
+    .r-14j79pv.r-6koalj.r-eqz5dr.r-37j5jr {
+        color: rgb(27, 149, 224);    
+    }
+        .r-1awozwy.r-1ro0kt6.r-18u37iz, div[aria-label^='Timeline: '] {
+        border: 1px solid #e1e8ed;
+    }
+    
+    .public-DraftStyleDefault-block {
+         color: black; 
+    }
+    
+    .gt2-nav .gt2-nav-right .gt2-compose, .r-1867qdf {
+        border-radius: 3px;
+    }
+    .r-1f1sjgu {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+    
+@-moz-document url-prefix("https://twitter.com/messages/") {
+    .gt2-legacy-profile-banner, .gt2-legacy-profile-nav {
+        display: none;   
+    }
+}
+
+@-moz-document domain("twitter.com") {
+    .r-sdzlij, img.actioned-user-profile-img, .Tweet-avatar{
+        border-radius: 5px;
+    }
+    html.dark .avatar {
+        border-radius: 5px;
+    }
+    .avatar, .Avatar, .nav .session .dropdown-toggle, .ProfileAvatar, .ProfileAvatar-image, .ProfileAvatar-placeholderImage, .DashboardProfileCard-avatarImage, .ProfileUserList .Avatar, .ProfileCard-avatarImage, .AdaptiveNewsHeadlineDetails-userImage, .ProfileCard-avatarLink, .ProfileCardMini-avatarImage, .MomentCapsuleItemTweet--withText .MomentUserByline-avatar, .ProfileCard-avatarLink, .nav .session .dropdown-toggle::before, .MomentCapsuleCover .MomentUserByline-avatar, .avatar--circular, .ProfileAvatarEditing, .ProfileAvatarEditing-button, .ProfileAvatarEditing-overlay, .Gallery.with-tweet.without-tweet .Gallery-media, #activity-popup-dialog:not(.reply-users-popup) .activity-popup-dialog-users .account .avatar, #session h2 img, .subject .photo, .facepile li img, .tweet-image img, .DashboardProfileCard-avatarLink, .u04__user-profile-img, #activity-popup-dialog:not(.reply-users-popup) .activity-popup-dialog-users .account .avatar, .DMAvatar{
+        border-radius: 5px;
+    }
+    .EdgeButton, .EdgeButton:visited, .RichEditor, .TwitterCard .EdgeButton, .TwitterCard .EdgeButton:visited {
+        border-radius: 5px;
+    }
+    .global-nav .search-input, .trends-search-locations.trend-locations-section input, .FollowButton--edge {
+        border-radius: 5px !important;
+    }
+}
+
+@-moz-document domain("mobile.twitter.com") {
+    .r-sdzlij{
+        border-radius: 5px !important;
+    }
+
+    .r-sdzlij {
+        border-radius: 5px !important;
+    }
+}

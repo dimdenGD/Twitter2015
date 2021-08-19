@@ -96,7 +96,7 @@
     }
 }
     
-@-moz-document url-prefix("https://twitter.com/messages/") {
+@-moz-document url-prefix("https://twitter.com/messages") {
     .gt2-legacy-profile-banner, .gt2-legacy-profile-nav {
         display: none;   
     }
